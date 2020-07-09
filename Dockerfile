@@ -16,3 +16,5 @@ RUN pip3 install -U numpy==1.16
 RUN apt install -y doxygen
 
 RUN apt install -y texlive
+
+RUN apt install -y texlive-latex-extra
